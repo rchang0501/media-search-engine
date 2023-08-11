@@ -2,6 +2,8 @@ module github.com/rchang0501/media-search-engine
 
 go 1.21.0
 
+require github.com/weaviate/weaviate-go-client/v4 v4.9.0
+
 require (
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
@@ -21,7 +23,6 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/oklog/ulid v1.3.1 // indirect
 	github.com/weaviate/weaviate v1.19.13-0.20230706120536-85b5f0f4fa43 // indirect
-	github.com/weaviate/weaviate-go-client/v4 v4.9.0 // indirect
 	go.mongodb.org/mongo-driver v1.11.3 // indirect
 	golang.org/x/net v0.7.0 // indirect
 	golang.org/x/oauth2 v0.4.0 // indirect
